@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+}
+
+header{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(240, 206, 228);
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    font-size:20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#logo{
+    height: 60px;
+    width: 60px;
+    margin-left: 5px;
+    border-radius: 50px;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(100, 86, 94)
+}
+
+a:hover{
+    color: rgb(244, 146, 210);
+
+}
+
+h1{
+    font-size:70px;
+    text-align: left;
+    margin-left:55px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2{
+    font-size:50px;
+    text-align: left;
+    margin-left:55px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.phoneImg{
+    display: flex;
+    flex-wrap: auto;
+    gap: 20px;
+}
