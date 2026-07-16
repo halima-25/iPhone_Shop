@@ -43,8 +43,31 @@ h2{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.phoneImg{
+.phone_info{
     display: flex;
-    flex-wrap: auto;
+    overflow-x: auto;
     gap: 20px;
+
 }
+
+img{
+     height: 450px; 
+    width: 380px;   
+}
+
+h3{
+    font-size:30px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p{
+    font-size:20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+  /*.Phone{
+    height: 550px; 
+    width: 500px;
+}*/
