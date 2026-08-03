@@ -62,7 +62,7 @@ main{
 
 }
 
-img{
+#phoneImage{
     width: 220px; 
     height: 280px; 
     border-radius: 25px;
@@ -86,9 +86,6 @@ button{
     text-align: center;
 }
 
-.color p{
-    margin: 10px;
-}
 
 #DeepBlue{
 background-color: rgb(23, 23, 113);
@@ -143,6 +140,11 @@ background-color: rgb(92, 196, 222);
     cursor: pointer;
 }  
 
+#selectedColor{
+    font-weight: bold;
+    font-size: 20px;
+}
+
 .prg{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 17px;
@@ -159,7 +161,6 @@ background-color: rgb(92, 196, 222);
     width: 450px;
     height: 0.5px;
     background-color: black;
-    margin-top: 15px;
 }
 .show_more_btn{
     background-color: rgb(247, 248, 248);
